@@ -1,6 +1,6 @@
-import json
 import pandas as pd
 from processing_cuaca_jakarta import bersihkan_data, buat_docs
+
 
 def test_bersihkan_data():
     df = pd.DataFrame([{
@@ -19,6 +19,7 @@ def test_bersihkan_data():
     df_clean = bersihkan_data(df)
     assert "Provinsi" in df_clean.columns
     assert df_clean.loc[0, "Suhu Udara (c)"] == 30
+
 
 def test_buat_docs():
     df = pd.DataFrame([{
