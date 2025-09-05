@@ -10,11 +10,13 @@
 - **RAG Ready**: Data yang dihasilkan disimpan dalam format yang ideal untuk aplikasi **Retrieval-Augmented Generation (RAG)**, siap untuk diintegrasikan dengan model bahasa besar (LLM).
 
 ## Struktur Proyek
+```
 ├── requirement.txt              # Daftar library yang diperulukan
 ├── processing_cuaca_jakarta.py  # Skrip utama untuk menjalankan pipeline
 ├── config.py                    # File konfigurasi
 ├── pipeline.log                 # Log hasil eksekusi (dihasilkan setelah dijalankan)
 └── README.md                    # File yang sedang Anda baca
+```
 
 ## Persyaratan (Requirements)
 Pastikan Anda telah menginstal Python (disarankan versi 3.8 atau lebih tinggi).
