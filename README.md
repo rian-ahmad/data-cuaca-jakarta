@@ -41,7 +41,32 @@ python processing_cuaca_jakarta.py
 💾 Setelah skrip selesai, data prakiraan cuaca akan disimpan dalam file data_cuaca_jkt.json di direktori yang sama.  
 
 
+  
+## Contoh Output JSON
+```json
+[
+  {
+    "id": "3173020001001001_2025-09-05T10:00:00",
+    "text": "Cuaca di desa CEMPAKA PUTIH TIMUR ...",
+    "metadata": {
+      "Kode adm4": "3173020001001001",
+      "Provinsi": "DKI Jakarta",
+      "Kota/Kabupaten": "Jakarta Pusat",
+      "Kecamatan": "Cempaka Putih",
+      "Desa": "Cempaka Putih Timur",
+      "Suhu Udara (c)": 32,
+      "Kelembapan": 80,
+      "Kondisi Cuaca": "Cerah Berawan",
+      "Kecepatan Angin (Km/Jam)": 5,
+      "Jarak Pandang (m)": 6000,
+      "Waktu Lokal": "2025-09-05 10:00:00"
+    }
+  }
+]
+```
 
+
+  
 ## ℹ️Sumber Data
 ### ☁️**Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
 **URL**: https://data.bmkg.go.id/prakiraan-cuaca/
