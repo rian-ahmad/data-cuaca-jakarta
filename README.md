@@ -30,10 +30,10 @@ python processing_cuaca_jakarta.py
 Setelah skrip selesai, data prakiraan cuaca akan disimpan dalam file data_cuaca_jkt.json di direktori yang sama.
 
 ## Sumber Data
-- **Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
--- **URL**: https://data.bmkg.go.id/prakiraan-cuaca/
-- Kode Wilayah: Permendagri (Kementerian Dalam Negeri Republik Indonesia)
--- URL: https://kodewilayah.id/
+### **Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
+**URL**: https://data.bmkg.go.id/prakiraan-cuaca/
+### Kode Wilayah: Permendagri (Kementerian Dalam Negeri Republik Indonesia)
+URL: https://kodewilayah.id/
 
 ## Lisensi
 Proyek ini dilisensikan di bawah MIT License 
