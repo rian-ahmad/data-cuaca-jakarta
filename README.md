@@ -3,13 +3,13 @@
 
 
 
-## ⭐Fitur Utama
-- 🔌**Integrasi API**: Mengambil data prakiraan cuaca dari API publik BMKG.
-- 🛡️**Ketahanan (Resilience)**: Menggunakan mekanisme _retry_ otomatis untuk menangani kegagalan jaringan atau batasan laju panggilan (rate-limiting) dari API.
-- 🧩**Modularitas**: Konfigurasi dipisahkan ke dalam file `config.py` untuk kemudahan pemeliharaan dan penyesuaian.
-- 📝**Pencatatan (Logging)**: Merekam setiap langkah alur kerja ke dalam konsol dan file log, memudahkan pemantauan dan `debugging`.
-- ✨**Pembersihan Data**: Memproses dan menormalisasi data mentah dari JSON ke dalam format tabel yang bersih menggunakan `pandas`.
-- 🤖**RAG Ready**: Data yang dihasilkan disimpan dalam format yang ideal untuk aplikasi **Retrieval-Augmented Generation (RAG)**, siap untuk diintegrasikan dengan model bahasa besar (LLM).  
+## ⭐ Fitur Utama
+- 🔌 **Integrasi API**: Mengambil data prakiraan cuaca dari API publik BMKG.
+- 🛡️ **Ketahanan (Resilience)**: Menggunakan mekanisme _retry_ otomatis untuk menangani kegagalan jaringan atau batasan laju panggilan (rate-limiting) dari API.
+- 🧩 **Modularitas**: Konfigurasi dipisahkan ke dalam file `config.py` untuk kemudahan pemeliharaan dan penyesuaian.
+- 📝 **Pencatatan (Logging)**: Merekam setiap langkah alur kerja ke dalam konsol dan file log, memudahkan pemantauan dan `debugging`.
+- ✨ **Pembersihan Data**: Memproses dan menormalisasi data mentah dari JSON ke dalam format tabel yang bersih menggunakan `pandas`.
+- 🤖 **RAG Ready**: Data yang dihasilkan disimpan dalam format yang ideal untuk aplikasi **Retrieval-Augmented Generation (RAG)**, siap untuk diintegrasikan dengan model bahasa besar (LLM).  
 
 
 
@@ -24,7 +24,7 @@
 
 
 
-## 🛠️Persyaratan (Requirements)
+## 🛠️ Persyaratan (Requirements)
 Pastikan Anda telah menginstal Python (disarankan versi 3.12 atau lebih tinggi).
 Instal semua pustaka yang diperlukan dengan menjalankan perintah berikut:
 ```bash
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 
 
-## 🚀Cara Menjalankan
+## 🚀 Cara Menjalankan
 Jalankan skrip Python dari terminal:
 ```bash
 python processing_cuaca_jakarta.py
@@ -42,7 +42,7 @@ python processing_cuaca_jakarta.py
 
 
   
-## 📜Contoh Output JSON
+## 📜 Contoh Output JSON
 ```json
 [
   {
@@ -67,14 +67,14 @@ python processing_cuaca_jakarta.py
 
 
   
-## ℹ️Sumber Data
-### ☁️**Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
+## ℹ️ Sumber Data
+### ☁️ **Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
 **URL**: https://data.bmkg.go.id/prakiraan-cuaca/
-### 🗺️Kode Wilayah: Permendagri (Kementerian Dalam Negeri Republik Indonesia)
+### 🗺️ Kode Wilayah: Permendagri (Kementerian Dalam Negeri Republik Indonesia)
 URL: https://kodewilayah.id/  
 
 
 
-## ⚖️Lisensi
+## ⚖️ Lisensi
 Proyek ini dilisensikan di bawah MIT License 
 - lihat file LICENSE untuk detail selengkapnya.
