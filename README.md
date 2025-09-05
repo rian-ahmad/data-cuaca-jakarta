@@ -25,7 +25,7 @@
 
 
 ## 🛠️Persyaratan (Requirements)
-Pastikan Anda telah menginstal Python (disarankan versi 3.8 atau lebih tinggi).
+Pastikan Anda telah menginstal Python (disarankan versi 3.12 atau lebih tinggi).
 Instal semua pustaka yang diperlukan dengan menjalankan perintah berikut:
 ```bash
 pip install -r requirements.txt
