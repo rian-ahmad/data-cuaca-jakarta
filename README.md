@@ -13,7 +13,7 @@
 
 
 
-## 📂Struktur Proyek
+## 📂 Struktur Proyek
 ```
 ├── requirement.txt              # Daftar library yang diperlukan
 ├── processing_cuaca_jakarta.py  # Skrip utama untuk menjalankan pipeline
