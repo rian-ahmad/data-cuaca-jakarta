@@ -1,5 +1,5 @@
 # data-cuaca-jakarta
-🚀📊💡 Proyek ini adalah data pipeline otomatis yang dirancang untuk mengambil, membersihkan, dan menyimpan data prakiraan cuaca dari BMKG BMKG (Badan Meteorologi, Klimatologi, dan Geofisika). Menggunakan pandas untuk pemrosesan data, requests dengan mekanisme retry untuk ketahanan terhadap kegagalan jaringan, dan logging untuk pemantauan alur kerja. Data disimpan dalam format JSON untuk kemudahan konsumsi oleh aplikasi hilir (downstream applications).
+🚀📊💡 Proyek ini adalah data pipeline otomatis yang dirancang untuk mengambil, membersihkan, dan menyimpan data prakiraan cuaca dari BMKG BMKG (Badan Meteorologi, Klimatologi, dan Geofisika). Menggunakan pandas untuk pemrosesan data, requests dengan mekanisme retry untuk ketahanan terhadap kegagalan jaringan, dan logging untuk pemantauan alur kerja. Data disimpan dalam format JSON untuk kemudahan konsumsi oleh aplikasi hilir (downstream applications).  
 
 
 
@@ -9,7 +9,7 @@
 - 🧩**Modularitas**: Konfigurasi dipisahkan ke dalam file `config.py` untuk kemudahan pemeliharaan dan penyesuaian.
 - 📝**Pencatatan (Logging)**: Merekam setiap langkah alur kerja ke dalam konsol dan file log, memudahkan pemantauan dan `debugging`.
 - ✨**Pembersihan Data**: Memproses dan menormalisasi data mentah dari JSON ke dalam format tabel yang bersih menggunakan `pandas`.
-- 🤖**RAG Ready**: Data yang dihasilkan disimpan dalam format yang ideal untuk aplikasi **Retrieval-Augmented Generation (RAG)**, siap untuk diintegrasikan dengan model bahasa besar (LLM).
+- 🤖**RAG Ready**: Data yang dihasilkan disimpan dalam format yang ideal untuk aplikasi **Retrieval-Augmented Generation (RAG)**, siap untuk diintegrasikan dengan model bahasa besar (LLM).  
 
 
 
@@ -20,7 +20,7 @@
 ├── config.py                    # File konfigurasi
 ├── pipeline.log                 # Log hasil eksekusi (dihasilkan setelah dijalankan)
 └── README.md                    # File yang sedang Anda baca
-```
+```  
 
 
 
@@ -29,7 +29,7 @@ Pastikan Anda telah menginstal Python (disarankan versi 3.8 atau lebih tinggi).
 Instal semua pustaka yang diperlukan dengan menjalankan perintah berikut:
 ```bash
 pip install -r requirements.txt
-```
+```  
 
 
 
@@ -38,7 +38,7 @@ Jalankan skrip Python dari terminal:
 ```bash
 python processing_cuaca_jakarta.py
 ```
-💾 Setelah skrip selesai, data prakiraan cuaca akan disimpan dalam file data_cuaca_jkt.json di direktori yang sama.
+💾 Setelah skrip selesai, data prakiraan cuaca akan disimpan dalam file data_cuaca_jkt.json di direktori yang sama.  
 
 
 
@@ -46,7 +46,7 @@ python processing_cuaca_jakarta.py
 ### ☁️**Data Cuaca**: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)
 **URL**: https://data.bmkg.go.id/prakiraan-cuaca/
 ### 🗺️Kode Wilayah: Permendagri (Kementerian Dalam Negeri Republik Indonesia)
-URL: https://kodewilayah.id/
+URL: https://kodewilayah.id/  
 
 
 
