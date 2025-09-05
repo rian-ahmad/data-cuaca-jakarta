@@ -46,20 +46,20 @@ python processing_cuaca_jakarta.py
 ```json
 [
   {
-    "id": "3173020001001001_2025-09-05T10:00:00",
-    "text": "Cuaca di desa CEMPAKA PUTIH TIMUR ...",
+    "id": "31.01.01.1001_2025-09-05_17:00:00",
+    "text": "Cuaca di desa Pulau Panggang (kode 31.01.01.1001) pada 2025-09-05 17:00:00 adalah Cerah dengan suhu 28°C, kelembapan 74%, dan kecepatan angin 7.0 km/jam.",
     "metadata": {
-      "Kode adm4": "3173020001001001",
       "Provinsi": "DKI Jakarta",
-      "Kota/Kabupaten": "Jakarta Pusat",
-      "Kecamatan": "Cempaka Putih",
-      "Desa": "Cempaka Putih Timur",
-      "Suhu Udara (c)": 32,
-      "Kelembapan": 80,
-      "Kondisi Cuaca": "Cerah Berawan",
-      "Kecepatan Angin (Km/Jam)": 5,
-      "Jarak Pandang (m)": 6000,
-      "Waktu Lokal": "2025-09-05 10:00:00"
+      "Kota/Kabupaten": "Administrasi Kepulauan Seribu",
+      "Kecamatan": "Kepulauan Seribu Utara",
+      "Desa": "Pulau Panggang",
+      "Kode adm4": "31.01.01.1001",
+      "Waktu Lokal": "2025-09-05 17:00:00",
+      "Suhu Udara (c)": 28,
+      "Kelembapan": 74,
+      "Kondisi Cuaca": "Cerah",
+      "Kecepatan Angin (Km/Jam)": 7.0,
+      "Jarak Pandang (m)": 7094
     }
   }
 ]
