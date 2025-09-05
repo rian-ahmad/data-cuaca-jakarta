@@ -36,7 +36,6 @@ def buat_session(max_retries=config.MAX_RETRIES, backoff_factor=config.BACKOFF_F
     adapter = HTTPAdapter(max_retries=retries)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
-
     return session
 
 
@@ -50,7 +49,6 @@ def prakiraan_cuaca(data, kode_adm4):
 
     df_prakiraan_cuaca = df_lokasi.join(df_cuaca, how="right")
     df_prakiraan_cuaca.fillna(df_lokasi.iloc[0], inplace=True)
-
     return df_prakiraan_cuaca
 
 
@@ -67,7 +65,6 @@ def ambil_kode_wilayah_jakarta():
         .query("Kode.str.startswith('31') and Kode.str.len() == 13")
         .reset_index(drop=True)
     )
-
     return df_jakarta
 
 
@@ -82,13 +79,10 @@ def ambil_data_cuaca(df_kode_wilayah_jakarta, delay=config.REQUEST_DELAY):
             res.raise_for_status()
             data = res.json()
             all_data.append(prakiraan_cuaca(data, kode))
-
         except requests.RequestException as e:
             logging.error(f"Gagal ambil data untuk kode {kode}: {e}")
-
         finally:
             time.sleep(delay)
-
     return pd.concat(all_data, ignore_index=True)
 
 
@@ -155,3 +149,4 @@ if __name__ == "__main__":
     
     except Exception as e:
         logging.exception(f"Pipeline gagal: {e}")
+
