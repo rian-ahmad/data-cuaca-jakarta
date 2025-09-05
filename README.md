@@ -1,5 +1,5 @@
 # data-cuaca-jakarta
-🚀📊💡 Proyek ini adalah data pipeline otomatis yang dirancang untuk mengambil, membersihkan, dan menyimpan data prakiraan cuaca dari BMKG BMKG (Badan Meteorologi, Klimatologi, dan Geofisika). Menggunakan pandas untuk pemrosesan data, requests dengan mekanisme retry untuk ketahanan terhadap kegagalan jaringan, dan logging untuk pemantauan alur kerja. Data disimpan dalam format JSON untuk kemudahan konsumsi oleh aplikasi hilir (downstream applications).  
+🚀📊💡 Proyek ini adalah data pipeline otomatis yang dirancang untuk mengambil, membersihkan, dan menyimpan data prakiraan cuaca dari BMKG (Badan Meteorologi, Klimatologi, dan Geofisika). Menggunakan pandas untuk pemrosesan data, requests dengan mekanisme retry untuk ketahanan terhadap kegagalan jaringan, dan logging untuk pemantauan alur kerja. Data disimpan dalam format JSON untuk kemudahan konsumsi oleh aplikasi hilir (downstream applications).  
 
 
 
