@@ -11,7 +11,7 @@
 
 ## 📂Struktur Proyek
 ```
-├── requirement.txt              # Daftar library yang diperulukan
+├── requirement.txt              # Daftar library yang diperlukan
 ├── processing_cuaca_jakarta.py  # Skrip utama untuk menjalankan pipeline
 ├── config.py                    # File konfigurasi
 ├── pipeline.log                 # Log hasil eksekusi (dihasilkan setelah dijalankan)
